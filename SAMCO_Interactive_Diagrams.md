@@ -29,10 +29,10 @@ graph TB
     BIZ --> DAT
     BIZ --> INT
 
-    click PRES "#presentation-layer-detail"
-    click BIZ "#business-logic-layer-detail"
-    click DAT "#data-access-layer-detail"
-    click INT "#integration-layer-detail"
+    click PRES "https://github.com/jmhossain/mermaid-diagrams/blob/main/SAMCO_Interactive_Diagrams.md#presentation-layer-detail"
+    click BIZ "https://github.com/jmhossain/mermaid-diagrams/blob/main/SAMCO_Interactive_Diagrams.md#business-logic-layer-detail"
+    click DAT "https://github.com/jmhossain/mermaid-diagrams/blob/main/SAMCO_Interactive_Diagrams.md#data-access-layer-detail"
+    click INT "https://github.com/jmhossain/mermaid-diagrams/blob/main/SAMCO_Interactive_Diagrams.md#integration-layer-detail"
 
     style Presentation fill:#e1f5ff
     style Business fill:#fff3e0
@@ -63,9 +63,9 @@ graph TB
     MENU -->|"navigates to"| DSPF
     MENU -->|"triggers"| PRTF
 
-    click MENU "#business-logic-layer-detail" "Jump to Business Logic"
-    click DSPF "#business-logic-layer-detail" "Jump to Business Logic"
-    click PRTF "#business-logic-layer-detail" "Jump to Business Logic"
+    click MENU "https://github.com/jmhossain/mermaid-diagrams/blob/main/SAMCO_Interactive_Diagrams.md#business-logic-layer-detail" "Jump to Business Logic"
+    click DSPF "https://github.com/jmhossain/mermaid-diagrams/blob/main/SAMCO_Interactive_Diagrams.md#business-logic-layer-detail" "Jump to Business Logic"
+    click PRTF "https://github.com/jmhossain/mermaid-diagrams/blob/main/SAMCO_Interactive_Diagrams.md#business-logic-layer-detail" "Jump to Business Logic"
 
     style Presentation fill:#e1f5ff
     style MENU color:#0066cc,cursor:pointer
@@ -92,8 +92,8 @@ graph TB
     PGM --> CL
     PGM --> UTIL
 
-    click PGM "#order-creation-workflow" "See Order Creation Workflow"
-    click SRVPGM "#service-program-architecture" "See Service Program Architecture"
+    click PGM "https://github.com/jmhossain/mermaid-diagrams/blob/main/SAMCO_Interactive_Diagrams.md#order-creation-workflow" "See Order Creation Workflow"
+    click SRVPGM "https://github.com/jmhossain/mermaid-diagrams/blob/main/SAMCO_Interactive_Diagrams.md#service-program-architecture" "See Service Program Architecture"
 
     style Business fill:#fff3e0
     style PGM color:#cc6600,cursor:pointer
@@ -117,8 +117,8 @@ graph TB
     PF -->|"indexed by"| LF
     PF -->|"abstracted by"| SQL
 
-    click PF "#entity-relationship-diagram" "See Entity Relationship Diagram"
-    click SQL "#entity-relationship-diagram" "See Entity Relationship Diagram"
+    click PF "https://github.com/jmhossain/mermaid-diagrams/blob/main/SAMCO_Interactive_Diagrams.md#entity-relationship-diagram" "See Entity Relationship Diagram"
+    click SQL "https://github.com/jmhossain/mermaid-diagrams/blob/main/SAMCO_Interactive_Diagrams.md#entity-relationship-diagram" "See Entity Relationship Diagram"
 
     style Data fill:#f3e5f5
     style PF color:#660099,cursor:pointer
